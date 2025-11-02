@@ -1,0 +1,3 @@
+set PATH=%PATH%;%SPARK_HOME%\bin
+export PATH=$PATH:$SPARK_HOME/bin
+python --version
