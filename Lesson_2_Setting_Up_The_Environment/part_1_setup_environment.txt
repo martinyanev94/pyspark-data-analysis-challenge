@@ -1,0 +1,4 @@
+C:\Program Files\Java\jdk-11.0.10
+export JAVA_HOME=$(/usr/libexec/java_home)
+C:\spark\spark-3.1.1-bin-hadoop3.2
+export SPARK_HOME=/Users/yourusername/spark/spark-3.1.1-bin-hadoop3.2
