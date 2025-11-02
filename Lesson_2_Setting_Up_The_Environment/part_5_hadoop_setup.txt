@@ -1,0 +1,4 @@
+HADOOP_HOME=C:\hadoop\hadoop-x.y.z
+set PATH=%PATH%;%HADOOP_HOME%\bin
+export HADOOP_HOME=/usr/local/hadoop
+export PATH=$PATH:$HADOOP_HOME/bin
