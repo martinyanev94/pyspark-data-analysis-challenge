@@ -1,0 +1,5 @@
+usa_over_30 = df.filter((df.Age > 30) & (df.Country == 'USA'))
+usa_over_30_count = usa_over_30.count()
+print(f"Number of users over 30 from the USA: {usa_over_30_count}")
+average_age_per_country = df.groupBy("Country").agg({"Age": "avg"})
+average_age_per_country.show()
